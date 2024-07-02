@@ -32,6 +32,13 @@ Support for any other Chromium-based browser can be added easily. If yours is no
     * Wox.Infrastructure.dll
     * Microsoft.Data.Sqlite.dll
     * PowerToys.Settings.UI.Lib.dll
+* For example, using powershell: 
+```
+cp $env:ProgramFiles\PowerToys\Wox.Plugin.dll .\BrowserSearch\lib
+cp $env:ProgramFiles\PowerToys\Wox.Infrastructure.dll .\BrowserSearch\lib
+cp $env:ProgramFiles\PowerToys\Microsoft.Data.Sqlite.dll .\BrowserSearch\lib
+cp $env:ProgramFiles\PowerToys\PowerToys.Settings.UI.Lib.dll .\BrowserSearch\lib
+```
 * Open the project in Visual Studio and build it in release mode
 * Copy the output folder `net8.0-windows` to `%LOCALAPPDATA%\Microsoft\PowerToys\PowerToys Run\Plugins\`
 * (Optional) Rename the copied folder to BrowserSearch

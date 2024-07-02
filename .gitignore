@@ -398,4 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 # Libs should be added by the user
-*libs/
+BrowserSearch/lib/
